@@ -1,4 +1,4 @@
-Program UTS1;
+Program UTS12;
 uses crt;
 var
 a, hari, y : string;
@@ -45,6 +45,13 @@ begin
     else if (hari = 'kamis') then
     begin
     s := 0.92;
+    q := 1;
+    r := 1;
+    p := 1;
+    end
+    else if (hari = 'jumat') or (hari = 'sabtu') or (hari = 'minggu')then
+    begin
+    s := 1;
     q := 1;
     r := 1;
     p := 1;
